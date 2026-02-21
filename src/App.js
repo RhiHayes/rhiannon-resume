@@ -12,7 +12,6 @@ import Education from './components/Education';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { HashRouter } from 'react-router-dom';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -47,9 +46,9 @@ function App() {
       setTheme(lightTheme);
     }
   };
+  
 
   return (
-    <HashRouter>
     <ThemeProvider theme={theme}>
     <Router>
       <Navbar updateTheme={handleThemeClick}/>
@@ -73,7 +72,6 @@ function App() {
           </Body>
         </Router>
     </ThemeProvider>
-    </HashRouter>
   );
 }
 
