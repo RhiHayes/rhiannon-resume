@@ -9,7 +9,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails';
 import Education from './components/Education';
-import { BrowserRouter as Router } from 'react-router-dom';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -50,7 +49,6 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-    <Router>
       <Navbar updateTheme={handleThemeClick}/>
           <Body>
           <HeroSection />
@@ -70,7 +68,6 @@ function App() {
           </Wrapper>
           <Footer />
           </Body>
-        </Router>
     </ThemeProvider>
   );
 }
