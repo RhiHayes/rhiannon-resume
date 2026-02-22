@@ -29,10 +29,10 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="Personal Projects" onClick={() => setToggle('Personal Projects')}>PERSONAL PROJECTS</ToggleButton>
           }
           <Divider />
-          {toggle === 'Miscellaneous' ?
-            <ToggleButton active value="Miscellaneous" onClick={() => setToggle('Miscellaneous')}>MISCELLANEOUS</ToggleButton>
+          {toggle === 'Misc' ?
+            <ToggleButton active value="Misc" onClick={() => setToggle('Misc')}>MISCELLANEOUS</ToggleButton>
             :
-            <ToggleButton value="Miscellaneous" onClick={() => setToggle('Miscellaneous')}>MISCELLANEOUS</ToggleButton>
+            <ToggleButton value="Misc" onClick={() => setToggle('Misc')}>MISCELLANEOUS</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

@@ -498,7 +498,7 @@ export const Bio = {
       image:
       projSew2022,
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-      category: "Miscellaneous",
+      category: "Misc",
       github: "https://github.com/RhiHayes/searchspring-challenge",
       live: "https://rhihayes.github.io/searchspring-challenge/",
     },
@@ -510,7 +510,7 @@ export const Bio = {
         "A fully responsive resume website that demonstrates corporate art trends such as geometric shapes and abstract backgrounds, displaying versatility in composition and aesthetic choices, all with uniquely designed artwork created in Clip Studio Paint and Adobe. Developed using HTML, CSS, JavaScript, Bootstrap, and jQuery.",
       image: projResume,
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "Clip Studio Paint", "Adobe"],
-      category: "Miscellaneous",
+      category: "Misc",
       github: "https://github.com/RhiHayes/personal-projects-html-css-boot",
       live: "https://rhihayes.github.io/",
     },
