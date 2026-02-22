@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
 import Navbar from './components/Navbar';
@@ -49,6 +50,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <Router>
       <Navbar updateTheme={handleThemeClick}/>
           <Body>
           <HeroSection />
@@ -68,6 +70,7 @@ function App() {
           </Wrapper>
           <Footer />
           </Body>
+         </Router>
     </ThemeProvider>
   );
 }
